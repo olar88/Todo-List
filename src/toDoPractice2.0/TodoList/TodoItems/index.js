@@ -31,7 +31,7 @@ function TodoItems(props) {
         {editing ? (
           <EditForm text={text} id={id} handleUpdatText={handleUpdatText} />
         ) : (
-          text
+          <div className='li_value'>{text}</div>
         )}
 
         <button

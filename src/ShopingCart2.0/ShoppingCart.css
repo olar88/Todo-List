@@ -1,0 +1,61 @@
+.container{
+  padding: 200px;
+  font-size: 1.2em;
+}
+h1{
+  text-align: center;
+  color: rgb(122, 135, 183);
+  
+}
+table{
+  text-align: center;
+  color: rosybrown;
+  margin: auto;
+}
+
+
+
+button{
+  margin: 5px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: none;
+  background-color: rgb(236, 196, 196);
+  cursor: pointer;
+}
+button:hover{
+  background-color: rgb(219, 110, 110);
+}
+.trashCan{
+  background-color:rgb(240, 227, 201);
+}
+.trashCan:hover{
+  background-color:rgb(72, 105, 148);
+}
+li{
+  list-style: none;
+
+  margin: 25px;
+  border-bottom: 1px dashed brown;
+}
+.summery{
+  margin: 60px;
+  color: teal;
+  font-size:1.5rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+span{
+  display: inline-block;
+  color: steelblue;
+  margin: 10px;
+}
+
+.summery>div{
+  display: inline-block;
+  
+}
+.summery>div>span{color: coral;}
+  
